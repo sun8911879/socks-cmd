@@ -2,7 +2,7 @@
 
 socks modify binaries from the [pac-cmd](https://github.com/getlantern/pac-cmd) project.
 
-A command line tool to change proxy socks settings of operation system.
+A command line tool to change proxy socks settings of operation os x system.
 
 Note - you will need to run make separately on each platform.
 
@@ -10,7 +10,6 @@ Note - you will need to run make separately on each platform.
 
 ```sh
 gcc -Wall -c -D DARWIN -D AMD64 -x objective-c main.c common.h
-
 gcc -o socks main.o -framework Cocoa -framework SystemConfiguration -framework Security
 ```
 
